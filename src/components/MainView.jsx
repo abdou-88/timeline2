@@ -11,7 +11,6 @@ import ResourceCellTimeLine from "../ResourceCellTimeLine.js";
 import ResourceCell from "../ResourceCell.js";
 
 
-
 import { ShiftMenuTemplate } from "../ShiftMenuTemplate.js";
 
 
@@ -72,7 +71,9 @@ class MainView extends React.Component {
     var element = document.getElementsByClassName(
       "dx-scheduler-header-panel-empty-cell"
     );
+ 
     element[0].appendChild(selectList);
+    
   }
 
   render() {
